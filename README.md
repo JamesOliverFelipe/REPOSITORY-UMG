@@ -25,6 +25,7 @@ given_file.close()
 <p id="textoPantalla">0</p>
 <p>
 -------------- JERRY CORDERO ------------------
+
 class Cliente(Persona):
     nit = models.CharField('NIT', max_length=10, unique=True, null=True, blank=True, default='C/F')
     nombre_comercial = models.CharField('Nombre Comercial', max_length=100, null=True, blank=True)
