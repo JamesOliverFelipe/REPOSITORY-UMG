@@ -1,6 +1,7 @@
 # REPOSITORY-UMG
 
--------------- JIMMY YAQUE ------------------
+    -------------- JIMMY YAQUE ------------------   
+    
 given_file = open('Numeros.txt', 'r')
 
 lines = given_file.readlines()
@@ -12,7 +13,8 @@ for line in lines:
 
 given_file.close()
 /n
------------- Oliver Ruiz--------------------
+    ------------ Oliver Ruiz--------------------
+    
 <html>
 <head>
 <title>Calculadora</title> 
