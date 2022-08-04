@@ -39,3 +39,22 @@ class Cliente(Persona):
     
     def __str__(self):
         return "%s - %s" % (self.nit, self.nombre_comercial)
+
+    -------------- JOSE FELIPE ------------------
+    <!DOCTYPE html>
+<html>
+   <head>
+      <title>Título de mi página web</title>
+   </head>
+   <body>
+      <header>
+         <h1>Titular principal de la página</h1>
+      </header>
+      <main>
+         <h2>Primer Subtítulo de la página</h2>
+         <p>Primer párrafo</p>
+      </main>
+      <footer>
+      </footer>
+   </body>
+</html>
