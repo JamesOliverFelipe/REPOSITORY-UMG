@@ -1,5 +1,6 @@
 # REPOSITORY-UMG
 
+------------ Jimmy Yaque ------------------
 given_file = open('Numeros.txt', 'r')
 
 lines = given_file.readlines()
