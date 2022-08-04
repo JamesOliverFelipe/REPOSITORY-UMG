@@ -24,3 +24,17 @@ given_file.close()
 <form action="#" name="calculadora" id="calculadora">
 <p id="textoPantalla">0</p>
 <p>
+-------------- JERRY CORDERO ------------------
+class Cliente(Persona):
+    nit = models.CharField('NIT', max_length=10, unique=True, null=True, blank=True, default='C/F')
+    nombre_comercial = models.CharField('Nombre Comercial', max_length=100, null=True, blank=True)
+    direccion = models.CharField('Dirección', max_length=150)
+
+    class Meta():
+        db_table = 'cliente'
+        verbose_name = 'Cliente'
+        verbose_name_plural = 'Clientes'
+        unique_together = ['nombre', 'apellido']
+    
+    def __str__(self):
+        return "%s - %s" % (self.nit, self.nombre_comercial)
