@@ -1,7 +1,6 @@
 # REPOSITORY-UMG
 
-    -------------- JIMMY YAQUE ------------------   
-    
+-------------- JIMMY YAQUE ------------------
 given_file = open('Numeros.txt', 'r')
 
 lines = given_file.readlines()
@@ -12,9 +11,8 @@ for line in lines:
             print('Numero encontrado : {}'.format(c))
 
 given_file.close()
-
-     -------------- OLIVER RUIZ ------------------ 
-    
+/n
+------------ Oliver Ruiz--------------------
 <html>
 <head>
 <title>Calculadora</title> 
@@ -60,3 +58,21 @@ class Cliente(Persona):
       </footer>
    </body>
 </html>
+    
+    
+    --------------OSCAR ESPINOZA-------------
+    <HTML>
+<HEAD>
+<TITLE>Ejemplo 3</TITLE>
+</HEAD>
+<BODY>
+Esto es texto simple: cada navegador lo visualizará según su configuración por defecto.
+<FONT SIZE="1">Este texto es tamaño 1.</FONT>
+<FONT SIZE="2">Este texto es tamaño 2.</FONT>
+<FONT SIZE="4">Este texto es tamaño 4.</FONT>
+<FONT SIZE="+1">Este texto es tamaño +1 (que es lo mismo que tamaño 4).</FONT>
+<FONT FACE="Arial" SIZE="5" COLOR="FFFF00">Este texto posee varias especificaciones de formato.</FONT>
+</BODY>
+</HTML>
+    
+    
