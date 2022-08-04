@@ -12,8 +12,8 @@ for line in lines:
             print('Numero encontrado : {}'.format(c))
 
 given_file.close()
-/n
-    ------------ Oliver Ruiz--------------------
+
+     -------------- OLIVER RUIZ ------------------ 
     
 <html>
 <head>
